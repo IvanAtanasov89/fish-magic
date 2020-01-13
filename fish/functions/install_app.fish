@@ -1,4 +1,4 @@
-function install_app --description 'install an AppImage file'
+function install_app --description 'installs an AppImage file'
     set -l APPLICATION_DIR "$HOME/Applications"
     set -l APP_IMAGE_FILE $argv[1]
     chmod +x $APP_IMAGE_FILE
